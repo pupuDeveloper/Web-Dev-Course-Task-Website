@@ -68,6 +68,29 @@ h2 {
     z-index: 1;
 }
 
+.jobsButton {
+    position:right;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: right;
+    display: inline-block;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.jobs{
+    font: 20px Arial, sans-serif;
+    font-weight: 500;
+    color: white;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
 .some-buttons-b {
     position: absolute;
     left: 1103px;
@@ -87,7 +110,7 @@ h2 {
     margin-right: 20px;
 }
 
-ul {
+.top{
     display: flex;
     align-items: stretch;
     justify-content: left;
